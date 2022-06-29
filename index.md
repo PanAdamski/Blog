@@ -1,12 +1,17 @@
-## Welcome to GitHub Pages
+## Welcome 
 
-You can use the [editor on GitHub](https://github.com/PanAdamski/Blog/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Here I have taken away all the existing methods of privilege escalation in linux. 
+These methods will be useful for CTFs, pentester work and certifications.
+I will try to present them, explain them and discuss them thoroughly.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### sudo -l
 
-### Markdown
+Let's start with the simplest method I know `sudo -l`.
+A site that collects practically all the ill-configured binaries in linux [GTFOBins](https://gtfobins.github.io/)
+Generally, this page contains all the escalation possibilities in this way and I recommend using it even if our escalation method is a bit more difficult (more on that later).
+Let's start with a simple example. I will discuss it in detail.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
 
 ```markdown
 Syntax highlighted code block
