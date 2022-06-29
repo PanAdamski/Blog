@@ -1,7 +1,7 @@
 ## Welcome 
 
 Here I have taken away all the existing methods of privilege escalation in linux. 
-These methods will be useful for CTFs, pentester work and certifications.
+These methods will be useful for CTFs, Pentester work and Certifications.
 I will try to present them, explain them and discuss them thoroughly.
 
 ### sudo -l
@@ -10,6 +10,24 @@ Let's start with the simplest method I know `sudo -l`.
 A site that collects practically all the ill-configured binaries in linux [GTFOBins](https://gtfobins.github.io/)
 Generally, this page contains all the escalation possibilities in this way and I recommend using it even if our escalation method is a bit more difficult (more on that later).
 Let's start with a simple example. I will discuss it in detail.
+
+## sudo -l "with the additional condition"
+aaaa
+
+## sudo -l "with the additional condition" hijacking
+aaa
+### crontab
+aaa
+
+### SUID
+aa
+
+### simple function hijacking
+aaa
+### race condition
+aaa
+### Other services running like another user
+
 
 
 
