@@ -8,7 +8,7 @@ I will try to present them, explain them and discuss them thoroughly.<br>
 ## Escalation methods I will use (of course there are exceptions)
 
 ```
-chmod u+e /bin/bash
+chmod u+s /bin/bash
 cp /root/.ssh/id_rsa /tmp/id_rsa
 cp /etc/shadow /tmp/shadow
 usermod -aG sudo <username>
@@ -124,7 +124,10 @@ File permissions:
         ```
 <br>
 This means that everyone has write permissions on this file so our task is simple. We need to write any content to the file <br>
-
+We start by executing a simple command to make sure everything works
+![image](https://user-images.githubusercontent.com/108422861/176699837-e80c8532-df98-4379-aa94-191a7dd5eaca.png) <br> <br>
+Then we can raise our eligibility. My favorite method is shown in the image below. I like them a lot because they are short and quick. <br>
+        
         
 
 ## sudo -l "with the additional condition" hijacking
