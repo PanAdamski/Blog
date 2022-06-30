@@ -35,7 +35,7 @@ DID YOU KNOW, you can edit this file using the commands: <br>
  You can change `nano` to any text editor like `vi`, `vim`, `gedit`, `sumlime`,... 
  </details>   
 
-Let's discuss it step by step:
+#Let's discuss it step by step:
 ```
 adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The first field indicates the username that the rule will apply to (adamski). 
 adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The “ALL” indicates that this rule applies to all hosts.
