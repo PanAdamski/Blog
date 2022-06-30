@@ -12,7 +12,6 @@ Generally, this page contains all the escalation possibilities in this way and I
 Let's start with a simple example. I will discuss it in detail.<br>
 The simplest configuration that exists is shown in the screenshot below.<br><br>
 
-\\<img width="954" alt="image" src="https://user-images.githubusercontent.com/108422861/176632127-5e49e0ba-33dc-448b-9127-791be0883853.png">
 <a href="url"><img src="https://user-images.githubusercontent.com/108422861/176632127-5e49e0ba-33dc-448b-9127-791be0883853.png" height="auto" width="auto" style="border-radius:5%"></a><br> <br>
 With this configuration, the user can do everything with elevated privileges. In this case with the privileges of the <b>root</b> user. <br><br>
 However, the most common situation you will encounter will be this:
