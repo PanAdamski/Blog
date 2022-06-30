@@ -64,7 +64,7 @@ sudo visudo
 ```
    .------------------------------------------ The first field indicates the username that the rule will apply to (adamski).     
    |
-   |      .----------------------------------- The “ALL” indicates that this rule applies to all hosts.
+   |     .----------------------------------- The “ALL” indicates that this rule applies to all hosts.
    |     |
    |     |      .----------------------------- This “bartek” indicates that the root user can run commands as all users.
    |     |      |
