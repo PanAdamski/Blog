@@ -1,10 +1,10 @@
-## Welcome 
+# Welcome 
 
 Here I have taken away all the existing methods of privilege escalation in UNIX systems. <br>
 These methods will be useful for CTFs, Pentester work and Certifications.<br>
 I will try to present them, explain them and discuss them thoroughly.<br>
 
-### sudo -l
+# sudo -l
 
 Let's start with the simplest method I know `sudo -l`. <br>
 A site that collects practically all the ill-configured binaries in linux [GTFOBins](https://gtfobins.github.io/).<br>
@@ -35,7 +35,7 @@ DID YOU KNOW, you can edit this file using the commands: <br>
  You can change `nano` to any text editor like `vi`, `vim`, `gedit`, `sumlime`,... 
  </details>   
 
-# Let's discuss it step by step:
+### Let's discuss it step by step:
 ```
 adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The first field indicates the username that the rule will apply to (adamski). 
 adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The “ALL” indicates that this rule applies to all hosts.
@@ -52,17 +52,17 @@ adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The **/bin/sh** indicates these rul
 
 ## sudo -l "with the additional condition" hijacking
 aaa
-### crontab
+## crontab
 aaa
 
-### SUID
+## SUID
 aa
 
-### simple function hijacking
+## simple function hijacking
 aaa
-### race condition
+## race condition
 aaa
-### Other services running like another user
+## Other services running like another user
 
 
 
