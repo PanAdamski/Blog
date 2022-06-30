@@ -14,8 +14,8 @@ cp /etc/shadow /tmp/shadow
 usermod -aG sudo <username>
 ```
 1.
-2.
-3.
+2. copy /root/.ssh/id_rsa to /tmp/id_rsa <td>
+3. copy /etc/shadow to /tmp/shadow <td>
 4.
 
 # sudo -l
