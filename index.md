@@ -70,7 +70,7 @@ sudo visudo
    |     |      |
    |     |      |     .--------------- This “bartek” indicates that the root user can run commands as all groups. 
    |     |      |     |
-   |     |      |     |         .---------- T  
+   |     |      |     |         .---------- By default, sudo requires that a user authenticate him or herself before running a command. This behavior can be modified via the NOPASSWD 
    |     |      |     |         |        
    |     |      |     |         |        .----- The **/bin/sh** indicates these rules apply to run **/bin/sh** command.
    |     |      |     |         |        |
