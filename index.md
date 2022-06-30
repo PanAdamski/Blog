@@ -11,8 +11,9 @@ A site that collects practically all the ill-configured binaries in linux [GTFOB
 Generally, this page contains all the escalation possibilities in this way and I recommend using it even if our escalation method is a bit more difficult (more on that later).<br>
 Let's start with a simple example. I will discuss it in detail.<br>
 The simplest configuration that exists is shown in the screenshot below.<br><br>
+
 |<img width="954" alt="image" src="https://user-images.githubusercontent.com/108422861/176632127-5e49e0ba-33dc-448b-9127-791be0883853.png">|
----<br> <br>
+|---|<br> <br>
 With this configuration, the user can do everything with elevated privileges. In this case with the privileges of the <b>root</b> user. <br><br>
 However, the most common situation you will encounter will be this:
 <img width="1229" alt="image" src="https://user-images.githubusercontent.com/108422861/176641545-cccd96ee-8505-486e-a0eb-8a1c14978afa.png"><br><br>
