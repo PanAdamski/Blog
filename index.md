@@ -48,8 +48,9 @@ adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The **/bin/sh** indicates these rul
 ```
 
 ### Simple example of sudo -l
-
-
+<img width="1221" alt="image" src="https://user-images.githubusercontent.com/108422861/176663552-ce443b7c-ac0e-4d44-9028-42b96f192864.png"> <br>
+User **adamski** can execute the `/usr/bin/nano` command as user **bartek**.
+Go to our [GTFOBins]https://gtfobins.github.io/ page and type in the command of interest ([nano]https://gtfobins.github.io/gtfobins/nano/). 
 
 ## sudo -l "with the additional condition"
 
