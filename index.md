@@ -124,15 +124,15 @@ File permissions:
         ```
 <br>
 This means that everyone has write permissions on this file so our task is simple. We need to write any content to the file <br>
-We start by executing a simple command to make sure everything works
+We start by executing a simple command to make sure everything works. <br>
 ![image](https://user-images.githubusercontent.com/108422861/176699837-e80c8532-df98-4379-aa94-191a7dd5eaca.png) <br> <br>
 Then we can raise our eligibility. My favorite method is shown in the image below. I like them a lot because they are short and quick. <br>
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/108422861/176701626-b52c6c41-39e3-430f-a474-7a970d769929.png"> <br>
 Now let me explain what I did: <br>
-        1. I saved the contents of my malicious code to a file.
-        2. I showed that the code in the file has changed and showed the permissions of the `/bin/bash` binaries.
-        3. I ran the script with elevated privileges and I showed that it worked.
-        4. I used `/bin/bash -p` because that's how I ran it with the SUID bit.
+        1. I saved the contents of my malicious code to a file. <br>
+        2. I showed that the code in the file has changed and showed the permissions of the `/bin/bash` binaries. <br>
+        3. I ran the script with elevated privileges and I showed that it worked. <br>
+        4. I used `/bin/bash -p` because that's how I ran it with the SUID bit. <br>
         
         
 
