@@ -57,6 +57,11 @@ Moving to the sudo tab, we see what we need to do to get the shell <br>
 Our command differs slightly so we have to adjust it <br>
 <img width="1221" alt="image" src="https://user-images.githubusercontent.com/108422861/176663552-ce443b7c-ac0e-4d44-9028-42b96f192864.png"><br>
 
+we do what the instructions say i.e. press `ctrl+r`, `ctrl+x` and type `reset; sh 1>&0 2>&0` `/press enter/` <br>
+<img width="1230" alt="image" src="https://user-images.githubusercontent.com/108422861/176666141-cb555007-9e0d-449c-b9c7-1f885ee85c5d.png"><br>
+
+And we see that we have a shell as user bartek (I recommend pressing the spacebar several times, because the shell obtained from nano is very ugly and we have to "click through" before we see anything) <br>
+<img width="1176" alt="image" src="https://user-images.githubusercontent.com/108422861/176666227-97ffc082-497b-4d98-ba79-e9b4336962bc.png"><br>
 
 
 ## sudo -l "with the additional condition"
