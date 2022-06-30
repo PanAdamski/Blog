@@ -18,7 +18,7 @@ With this configuration, the user can do everything with elevated privileges. In
 However, the most common situation you will encounter will be this:
 <kbd> <img width="1229" alt="image" src="https://user-images.githubusercontent.com/108422861/176641545-cccd96ee-8505-486e-a0eb-8a1c14978afa.png"></kbd><br><br>
 
-This configuration is saved in `/etc/sudoers`.
+To see an effect like the one above we need to add in the `/etc/sudoers` file what is below in the image.
 ```
 adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh
 ```
