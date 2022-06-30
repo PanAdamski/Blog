@@ -90,6 +90,7 @@ And we see that we have a shell as user bartek (I recommend pressing the spaceba
 It works :)
         
         <br> <br>
+        
 ## sudo -l "with the additional condition"
 
 
