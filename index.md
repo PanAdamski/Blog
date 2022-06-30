@@ -70,7 +70,7 @@ adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The **/bin/sh** indicates these rul
 
 ### Simple example of sudo -l
         
-<img width="1224" alt="image" src="https://user-images.githubusercontent.com/108422861/176664752-3da09ab2-eec1-4297-b910-38ca241a7fb3.png"> <br>
+<img width="1224" alt="image" src="https://user-images.githubusercontent.com/108422861/176664752-3da09ab2-eec1-4297-b910-38ca241a7fb3.png"><br><br>
 User **adamski** can execute the `/usr/bin/nano` command as user **bartek**. <br>
 Go to our [GTFOBins](https://gtfobins.github.io/) page and type in the command of interest ([nano](https://gtfobins.github.io/gtfobins/nano/#sudo)). <br> <br>
 Moving to the sudo tab, we see what we need to do to get the shell <br>
