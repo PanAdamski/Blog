@@ -4,6 +4,20 @@ Here I have taken away all the existing methods of privilege escalation in UNIX 
 These methods will be useful for CTFs, Pentester work and Certifications.<br>
 I will try to present them, explain them and discuss them thoroughly.<br>
 
+
+## Escalation methods I will use (of course there are exceptions)
+
+```
+chmod u+e /bin/bash
+cp /root/.ssh/id_rsa /tmp/id_rsa
+cp /etc/shadow /tmp/shadow
+usermod -aG sudo <username>
+```
+1.
+2.
+3.
+4.
+
 # sudo -l
 
 Let's start with the simplest method I know `sudo -l`. <br>
