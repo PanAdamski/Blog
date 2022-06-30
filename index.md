@@ -18,7 +18,7 @@ The simplest configuration that exists is shown in the screenshot below.<br><br>
 With this configuration, the user can do everything with elevated privileges. In this case with the privileges of the <b>root</b> user. <br><br>
 However, the most common situation you will encounter will be this:
 <kbd> <img width="1229" alt="image" src="https://user-images.githubusercontent.com/108422861/176641545-cccd96ee-8505-486e-a0eb-8a1c14978afa.png"></kbd><br><br>
-If we do not specify -u/-g the command will always want to run as **root** so in this case we failed, because in this configuration we can execute the command as user **bartek** <br>
+If we do not specify `-u`/`-g` switch the command will always want to run as **root** so in this case we failed, because in this configuration we can execute the command as user **bartek** <br>
 <img width="1225" alt="image" src="https://user-images.githubusercontent.com/108422861/176662778-bfdab3b8-1ec8-451f-b0e1-0ec295ccbeb7.png"> <br>
 <br>
 To see an effect like the one above we need to add in the `/etc/sudoers` file what is below.
