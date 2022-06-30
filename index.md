@@ -107,14 +107,25 @@ Here we literally do copy+paste <br>
 <img width="1227" alt="image" src="https://user-images.githubusercontent.com/108422861/176671501-1400f5e3-16f4-434a-9acc-d95ef26a68bc.png"><br>
         
 It works :)  <br><br>
-        
-## sudo -l absolute pathless 
-
+    
 
 ## sudo -l "with the additional condition"
+        
+In this case, we will look at the case when, in addition to the binary file itself, we have an additional condition. <br>
+<img width="961" alt="image" src="https://user-images.githubusercontent.com/108422861/176696469-ff45b900-09bc-4c09-86a2-b0e326150b7e.png"> <br>
+We see that we can, as the root user, run the perl script in location `/opt/backup.pl`. <br><br>
 
-aaa
+We check what is in this file and what permissions we have. <br>
+<img width="445" alt="image" src="https://user-images.githubusercontent.com/108422861/176696885-f0b48dec-6286-454f-a314-68f0c3a5f4da.png"> <br>
+We can see that the script makes a copy of the `/etc/shadow` file to `/dev/null`. <br>
+File permissions:
+        ```
+        -rw-r--rw- 1 root root 53 Jun 30 09:56 /opt/backup.pl
+        ```
+<br>
+This means that everyone has write permissions on this file so our task is simple. We need to write any content to the file <br>
 
+        
 
 ## sudo -l "with the additional condition" hijacking
 aaa
