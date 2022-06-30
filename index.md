@@ -62,15 +62,15 @@ sudo visudo
 ### Let's discuss it step by step:
         
 ```
-   .------------------------------------------ The first field indicates the username that the rule will apply to (adamski).     
+   .------------------------- The first field indicates the username that the rule will apply to (adamski).     
    |
-   |     .------------------------------------ The “ALL” indicates that this rule applies to all hosts.
+   |     .------------------------- The “ALL” indicates that this rule applies to all hosts.
    |     |
-   |     |      .----------------------------- This “bartek” indicates that the root user can run commands as all users.
+   |     |      .-------------------- This “bartek” indicates that the root user can run commands as all users.
    |     |      |
-   |     |      |     .----------------------- This “bartek” indicates that the root user can run commands as all groups. 
+   |     |      |     .--------------- This “bartek” indicates that the root user can run commands as all groups. 
    |     |      |     |
-   |     |      |     |         .------------- T  
+   |     |      |     |         .---------- T  
    |     |      |     |         |        
    |     |      |     |         |        .----- The **/bin/sh** indicates these rules apply to run **/bin/sh** command.
    |     |      |     |         |        |
