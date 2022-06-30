@@ -30,10 +30,10 @@ adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh
         <summary>CURIOSITY</summary>
   
 DID YOU KNOW, you can edit this file using the commands: <br>
-        
-        `sudo nano /etc/sudoers` <br>
-        `sudo visudo` <br>
-        
+        ```
+        sudo nano /etc/sudoers
+        sudo visudo 
+       ```
         
  You can change `nano` to any text editor like `vi`, `vim`, `gedit`, `sumlime`,... 
  </details>   
