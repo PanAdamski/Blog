@@ -26,7 +26,13 @@ adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh
 <details>
         <summary>CURIOSITY</summary>
   
-DID YOU KNOW, you can get to this using the `sudo visudo` command ;)
+DID YOU KNOW, you can edit this file using the commands:
+        ```
+        sudo nano /etc/sudoers
+        sudo visudo
+        ```
+        
+ You can change `nano` to any text editor like `vi`, `vim`, `gedit`, `sumlime`,... 
  </details>   
 
 Let's discuss it step by step:
