@@ -18,6 +18,7 @@ usermod -aG sudo <username>
 3. copy /etc/shadow to /tmp/shadow <br>
 4. add user <username> to the **sudo** group <br>
 <br>
+        
 # sudo -l
 
 Let's start with the simplest method I know `sudo -l`. <br>
