@@ -37,24 +37,28 @@ However, the most common situation you will encounter will be this:
 If we do not specify `-u`/`-g` switch the command will always want to run as **root** so in this case we failed, because in this configuration we can execute the command as user **bartek** <br>
 <img width="1225" alt="image" src="https://user-images.githubusercontent.com/108422861/176662778-bfdab3b8-1ec8-451f-b0e1-0ec295ccbeb7.png"> <br>
 <br>
+        
 To see an effect like the one above we need to add in the `/etc/sudoers` file what is below.
+        
 ```
 adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh
 ```
 <br>
 <details>
-        <summary>CURIOSITY (expand)</summary>
+        <summary>DID YOU KNOW</summary>
   
-DID YOU KNOW, you can edit this file using the commands: <br>
-        ```
-        sudo nano /etc/sudoers
-        sudo visudo 
-       ```
+ you can edit this file using the commands: <br>
         
- You can change `nano` to any text editor like `vi`, `vim`, `gedit`, `sumlime`,... 
+```
+sudo nano /etc/sudoers
+sudo visudo 
+```
+        
+ You can change `nano` to any text editor like `vi`, `vim`, `gedit`, `sumlime`. 
  </details>   
 
 ### Let's discuss it step by step:
+        
 ```
 adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The first field indicates the username that the rule will apply to (adamski). 
 adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The “ALL” indicates that this rule applies to all hosts.
@@ -64,6 +68,7 @@ adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The **/bin/sh** indicates these rul
 ```
 
 ### Simple example of sudo -l
+        
 <img width="1224" alt="image" src="https://user-images.githubusercontent.com/108422861/176664752-3da09ab2-eec1-4297-b910-38ca241a7fb3.png"> <br>
 User **adamski** can execute the `/usr/bin/nano` command as user **bartek**. <br>
 Go to our [GTFOBins](https://gtfobins.github.io/) page and type in the command of interest ([nano](https://gtfobins.github.io/gtfobins/nano/#sudo)). <br> <br>
@@ -88,9 +93,12 @@ And we see that we have a shell as user bartek (I recommend pressing the spaceba
         
 It works :)  <br><br>
         
+## sudo -l absolute pathless 
+
+
 ## sudo -l "with the additional condition"
 
-
+aaa
 
 
 ## sudo -l "with the additional condition" hijacking
