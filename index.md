@@ -25,11 +25,11 @@ DID YOU KNOW You can get to this using the `sudo visudo` command ;)
 
 Let's discuss it step by step:
 ```
-adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The first field indicates the username that the rule will apply to (adamski). <br>
-adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The first “ALL” indicates that this rule applies to all hosts. <br>
-adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh This “bartek” indicates that the root user can run commands as all users. <br>
-adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh This “bartek” indicates that the root user can run commands as all groups. <br>
-adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The `/bin/sh` indicates these rules apply to run `/bin/sh` command. <br>
+adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The first field indicates the username that the rule will apply to (adamski). 
+adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The “ALL” indicates that this rule applies to all hosts.
+adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh This “bartek” indicates that the root user can run commands as all users. 
+adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh This “bartek” indicates that the root user can run commands as all groups. 
+adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The **/bin/sh** indicates these rules apply to run **/bin/sh** command. 
 ```
 
 
