@@ -23,7 +23,11 @@ To see an effect like the one above we need to add in the `/etc/sudoers` file wh
 adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh
 ```
 <br>
+<details>
+        <summary>CURIOSITY</summary>
+  
 DID YOU KNOW, you can get to this using the `sudo visudo` command ;)
+ </details>   
 
 Let's discuss it step by step:
 ```
