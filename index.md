@@ -76,7 +76,8 @@ we do what the instructions say i.e. press `ctrl+r`, `ctrl+x` and type `reset; s
 
 And we see that we have a shell as user bartek (I recommend pressing the spacebar several times, because the shell obtained from nano is very ugly and we have to "click through" before we see anything) <br>
 <img width="1176" alt="image" src="https://user-images.githubusercontent.com/108422861/176666227-97ffc082-497b-4d98-ba79-e9b4336962bc.png"><br>
-
+It Works ;)
+        <br><br>
 
 ## sudo -l "with the additional condition"
 
