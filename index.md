@@ -57,7 +57,7 @@ sudo visudo
 <br> 
  You can change `nano` to any text editor like `vi`, `vim`, `gedit`, `sumlime`. 
 </details>   
-
+<br>
 ### Let's discuss it step by step:
         
 ```
