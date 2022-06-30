@@ -48,9 +48,16 @@ adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The **/bin/sh** indicates these rul
 ```
 
 ### Simple example of sudo -l
-<img width="1221" alt="image" src="https://user-images.githubusercontent.com/108422861/176663552-ce443b7c-ac0e-4d44-9028-42b96f192864.png"> <br>
-User **adamski** can execute the `/usr/bin/nano` command as user **bartek**.
-Go to our [GTFOBins](https://gtfobins.github.io/) page and type in the command of interest ([nano](https://gtfobins.github.io/gtfobins/nano/)). 
+<img width="1224" alt="image" src="https://user-images.githubusercontent.com/108422861/176664752-3da09ab2-eec1-4297-b910-38ca241a7fb3.png"> <br>
+User **adamski** can execute the `/usr/bin/nano` command as user **bartek**. <br>
+Go to our [GTFOBins](https://gtfobins.github.io/) page and type in the command of interest ([nano](https://gtfobins.github.io/gtfobins/nano/#sudo)). <br> <br>
+Moving to the sudo tab, we see what we need to do to get the shell <br>
+![image](https://user-images.githubusercontent.com/108422861/176664116-82f33529-6ec1-44f2-b668-c9b17906756c.png)<br><br>
+
+Our command differs slightly so we have to adjust it <br>
+<img width="1221" alt="image" src="https://user-images.githubusercontent.com/108422861/176663552-ce443b7c-ac0e-4d44-9028-42b96f192864.png"><br>
+
+
 
 ## sudo -l "with the additional condition"
 
