@@ -53,10 +53,10 @@ You can edit this file using the commands: <br>
 sudo nano /etc/sudoers
 sudo visudo 
 ```
-<br>   
-    
+
+<br> 
  You can change `nano` to any text editor like `vi`, `vim`, `gedit`, `sumlime`. 
- </details>   
+</details>   
 
 ### Let's discuss it step by step:
         
