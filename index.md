@@ -43,7 +43,8 @@ To see an effect like the one above we need to add in the `/etc/sudoers` file wh
 ```
 adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh
 ```
-<br>
+        
+<br> 
 <details>
         <summary>DID YOU KNOW</summary>
   
@@ -61,12 +62,27 @@ sudo visudo
 ### Let's discuss it step by step:
         
 ```
-adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The first field indicates the username that the rule will apply to (adamski). 
-adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The “ALL” indicates that this rule applies to all hosts.
-adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh This “bartek” indicates that the root user can run commands as all users. 
-adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh This “bartek” indicates that the root user can run commands as all groups. 
-adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh The **/bin/sh** indicates these rules apply to run **/bin/sh** command. 
+   .------------------------------------------ The first field indicates the username that the rule will apply to (adamski).     
+   |
+   |      .----------------------------------- The “ALL” indicates that this rule applies to all hosts.
+   |     |
+   |     |      .----------------------------- This “bartek” indicates that the root user can run commands as all users.
+   |     |      |
+   |     |      |     .----------------------- This “bartek” indicates that the root user can run commands as all groups. 
+   |     |      |     |
+   |     |      |     |                 .----- The **/bin/sh** indicates these rules apply to run **/bin/sh** command. 
+   |     |      |     |                 |
+   |     |      |     |                 |
+adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh 
+adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh 
+adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh  
+adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh 
+adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh 
+        
 ```
+        
+        
+ 
 
 ### Simple example of sudo -l
         
