@@ -13,10 +13,10 @@ cp /root/.ssh/id_rsa /tmp/id_rsa
 cp /etc/shadow /tmp/shadow
 usermod -aG sudo <username>
 ```
-1.
+1. 
 2. copy /root/.ssh/id_rsa to /tmp/id_rsa <td>
 3. copy /etc/shadow to /tmp/shadow <td>
-4.
+4. add user <username> to the **sudo** group
 
 # sudo -l
 
@@ -41,7 +41,7 @@ adamski ALL=(bartek:bartek) NOPASSWD:/bin/sh
 ```
 <br>
 <details>
-        <summary>CURIOSITY</summary>
+        <summary>CURIOSITY (expand)</summary>
   
 DID YOU KNOW, you can edit this file using the commands: <br>
         ```
