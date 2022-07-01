@@ -1,4 +1,4 @@
-# Welcome 
+# Welcome (I'm in the process of writing this project. It is not finished)
 
 Here I have taken away all the existing methods of privilege escalation in UNIX systems. <br>
 These methods will be useful for CTFs, Pentester work and Certifications.<br>
