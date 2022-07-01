@@ -138,11 +138,17 @@ Now let me explain what I did: <br>
         2. I showed that the code in the file has changed and showed the permissions of the `/bin/bash` binaries. <br>
         3. I ran the script with elevated privileges and I showed that it worked. <br>
         4. I used `/bin/bash -p` because that's how I ran it with the SUID bit. <br>
-        
+        <br>
         
 
 ## sudo -l "with the additional condition" hijacking
-aaa
+        
+There may be an infinite number of these examples, but I would like to show you only three. I hope that everyone after seeing them will be able to understand the logical idea of this method. <br>
+
+Te simplest of the three: <br>
+We are executing a script that we cannot control, but it is executing a script over which we have control. <br>        
+        
+        
 ## crontab
 aaa
 
