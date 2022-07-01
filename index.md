@@ -149,12 +149,13 @@ Te simplest of the three: <br>
 1. We are executing a script that we cannot control, but it is executing a script over which we have control. <br>        
 This doesn't quite fit the rest of the cases, but I wasn't sure where to put it (it kind of fits the case above). <br> <br>        
         
-<img width="956" alt="image" src="https://user-images.githubusercontent.com/108422861/176916603-c322a99f-501d-47e5-b808-d34a1a38f1c2.png"> <br>
+<img width="954" alt="image" src="https://user-images.githubusercontent.com/108422861/176918300-3d0768a1-71a1-4ddb-b887-f4fb9b9202a8.png"> <br>
 We can see that our script /opt/backup.pl runs another script in the directory /home/adamski/copy.sh (which in this case is our home directory) <br> <br>
 First, we check the permissions and content of the file. <br>
  <img width="547" alt="image" src="https://user-images.githubusercontent.com/108422861/176917119-2655e61d-80e3-4b3c-a5f9-cdf02f10e085.png"> <br>
 We can see that it will be easy as we have full control over this file (we own it and it owns our group). <br><br>
-Here we have several options for you to choose from. We can do as before with the perl script, but we can also ... delete the file and add another one with the same name :D <br><br>
+Here we have several options for you to choose from. We can do as before with the perl script, but we can also delete the file and add another one with the same name :D <br><br>
+<img width="713" alt="image" src="https://user-images.githubusercontent.com/108422861/176918655-897e1662-db05-4be6-b622-bc87b8ae06ae.png">
   
         
 ## crontab
