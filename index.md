@@ -24,10 +24,9 @@ usermod -aG sudo <username>
 3. copy /etc/shadow to /tmp/shadow <br>
 4. add user <username> to the **sudo** group <br>
 <br>
-        
+<a id="sudo-l"></a>        
 # sudo -l
         
-<a id="sudo-l"></a>
 Let's start with the simplest method I know `sudo -l`. <br>
 A site that collects practically all the ill-configured binaries in linux [GTFOBins](https://gtfobins.github.io/).<br>
 Generally, this page contains all the escalation possibilities in this way and I recommend using it even if our escalation method is a bit more difficult (more on that later).<br>
