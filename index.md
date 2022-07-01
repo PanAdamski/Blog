@@ -155,7 +155,11 @@ First, we check the permissions and content of the file. <br>
  <img width="547" alt="image" src="https://user-images.githubusercontent.com/108422861/176917119-2655e61d-80e3-4b3c-a5f9-cdf02f10e085.png"> <br>
 We can see that it will be easy as we have full control over this file (we own it and it owns our group). <br><br>
 Here we have several options for you to choose from. We can do as before with the perl script, but we can also delete the file and add another one with the same name :D <br><br>
-<img width="713" alt="image" src="https://user-images.githubusercontent.com/108422861/176918655-897e1662-db05-4be6-b622-bc87b8ae06ae.png">
+<img width="713" alt="image" src="https://user-images.githubusercontent.com/108422861/176918655-897e1662-db05-4be6-b622-bc87b8ae06ae.png"><br><br>
+1. I remove the file + show that it is not there <br>
+2. I create the counters and show the permissions of the file that I will modify. <br>
+3. I add my malicious code to a bash script that I control. <br>
+4. I execute the script and show that I got root. <br>
   
         
 ## crontab
