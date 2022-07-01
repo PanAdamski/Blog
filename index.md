@@ -4,6 +4,11 @@ Here I have taken away all the existing methods of privilege escalation in UNIX 
 These methods will be useful for CTFs, Pentester work and Certifications.<br>
 I will try to present them, explain them and discuss them thoroughly.<br>
 
+# Testing Legend
+
+1. <a id="Methods"> The methods I use for escalation in most cases </a>
+2. <a id="sudo-l"> Sudo -l </a>
+
 
 ## Escalation methods I will use (of course there are exceptions)
 
@@ -20,7 +25,7 @@ usermod -aG sudo <username>
 4. add user <username> to the **sudo** group <br>
 <br>
         
-# sudo -l
+# <a href="#sudo-l" sudo -l </a>
 
 Let's start with the simplest method I know `sudo -l`. <br>
 A site that collects practically all the ill-configured binaries in linux [GTFOBins](https://gtfobins.github.io/).<br>
