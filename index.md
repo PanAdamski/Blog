@@ -147,7 +147,7 @@ There may be an infinite number of these examples, but I would like to show you 
 
 Te simplest of the three: <br>
 We are executing a script that we cannot control, but it is executing a script over which we have control. <br>        
-        
+This doesn't quite fit the rest of the cases, but I wasn't sure where to put it (it kind of fits the case above). <br> <br>        
         
 ## crontab
 aaa
