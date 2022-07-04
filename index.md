@@ -159,9 +159,13 @@ Here we have several options for you to choose from. We can do as before with th
 1. I remove the file + show that it is not there <br>
 2. I create the counters and show the permissions of the file that I will modify. <br>
 3. I add my malicious code to a bash script that I control. <br>
-4. I execute the script and show that I got root. <br>
+4. I execute the script and show that I got root. <br> <br>
   
-        
+### sudo -l “with the additional condition” hijacking continued
+
+The previous case was not 100% hijacking. Now I would like to show an example "more fitting". <br><br>
+
+
 ## crontab
 aaa
 
