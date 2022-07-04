@@ -164,8 +164,10 @@ Here we have several options for you to choose from. We can do as before with th
 ### sudo -l “with the additional condition” hijacking continued
 
 The previous case was not 100% hijacking. Now I would like to show an example "more fitting". <br><br>
-
-
+I'll start by showing all the things we checked earlier. <br>
+        
+## Path Injection (Previse)
+        
 ## crontab
 aaa
 
