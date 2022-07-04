@@ -165,6 +165,19 @@ Here we have several options for you to choose from. We can do as before with th
 
 The previous case was not 100% hijacking. Now I would like to show an example "more fitting". <br><br>
 I'll start by showing all the things we checked earlier. <br>
+ <img width="1229" alt="image" src="https://user-images.githubusercontent.com/108422861/177172184-c0ec260c-e924-4a29-a801-9586c461c170.png"><br>
+Again, we have a script that runs another script. <br>
+However, this time we cannot modify anything in these scripts. <br>
+So if we can't modify we should think about what we can control. <br>        
+We can see that in the script (run as root) we have a transition to the `/home/adamski/backups` directory i.e. actions are happening in our home directory. Then the `awk * > /var/backups/back$(date).txt` command is executed.  <br>
+With this asterisk (*), anything in the /home/adamski/backups directory will be "taken into account" by the awk command. <br>        
+        
+![image](https://user-images.githubusercontent.com/108422861/177172928-a89cd68e-9c65-4ade-8c9f-2a6c4a86b471.png) <br>
+
+Moving on to [GTFOBINS](https://gtfobins.github.io/gtfobins/awk/), we will see how to call sh shell, but we do not have exact information on how to use it in our outing. Therefore, here we need a bit of cleverness. <br><br>
+
+We would like to execute `awk 'BEGIN {system("/bin/sh")}'`, but we have `awk * [...]`. <br>
+So all we have to do is force our program to make the star turn into what we need. <br>
         
 ## Path Injection (Previse)
         
