@@ -178,6 +178,18 @@ Moving on to [GTFOBINS](https://gtfobins.github.io/gtfobins/awk/), we will see h
 
 We would like to execute `awk 'BEGIN {system("/bin/sh")}'`, but we have `awk * [...]`. <br>
 So all we have to do is force our program to make the star turn into what we need. <br>
+I will immediately add that the file name must not contain `/`. <br> <br>
+
+        Executing this command in a "simple way" will not give us success.
+        <img width="740" alt="image" src="https://user-images.githubusercontent.com/108422861/177174202-06761d3e-6c4d-4bb6-a06b-f31829c51fab.png"><br>
+        The command does not execute and we have "infinite lag". <br><br>
+        
+        So it's time to be smart. <br>
+<img width="808" alt="image" src="https://user-images.githubusercontent.com/108422861/177174533-a608a1bf-0815-4899-b1db-ab34b23cec6d.png"> <br>
+        We create a file with a malicious payload and tell our `awk` command to execute what is in the file named **test**. <br><br>
+<img width="882" alt="image" src="https://user-images.githubusercontent.com/108422861/177175043-e89dc068-66c6-4d16-be08-1e49cd4b56b6.png"><br>
+And the result we have on the screen. We are root :)
+        
         
 ## Path Injection (Previse)
         
