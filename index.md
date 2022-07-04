@@ -8,6 +8,7 @@ I will try to present them, explain them and discuss them thoroughly.<br>
 
 1. <a id="Methods"> The methods I use for escalation in most cases </a>
 2. <a href="#sudo-l"> Sudo -l </a>
+- <a href="#sudo-l3">sudo -l “with the additional condition” hijacking continued</a>
 
 
 ## Escalation methods I will use (of course there are exceptions)
@@ -160,7 +161,8 @@ Here we have several options for you to choose from. We can do as before with th
 2. I create the counters and show the permissions of the file that I will modify. <br>
 3. I add my malicious code to a bash script that I control. <br>
 4. I execute the script and show that I got root. <br> <br>
-  
+
+<a id="sudo-l3"></a> 
 ### sudo -l “with the additional condition” hijacking continued
 
 The previous case was not 100% hijacking. Now I would like to show an example "more fitting". <br><br>
