@@ -190,12 +190,11 @@ The command does not execute and we have "infinite lag". <br><br>
 <img width="808" alt="image" src="https://user-images.githubusercontent.com/108422861/177174533-a608a1bf-0815-4899-b1db-ab34b23cec6d.png"> <br>
 We create a file with a malicious payload and tell our `awk` command to execute what is in the file named **test**. <br><br>
 <img width="882" alt="image" src="https://user-images.githubusercontent.com/108422861/177175043-e89dc068-66c6-4d16-be08-1e49cd4b56b6.png"><br>
-And the result we have on the screen. We are root :) <br><br>
-        
+And the result we have on the screen. We are root :) <br><br>        
         
 ## Path Injection (Previse)
 
-        This case is trivially simple and involves taking advantage of the "laziness" of the person who assigned the script rule. Here I will show an example on sudo -l and on a script written in python. <br><br>
+This case is trivially simple and involves taking advantage of the "laziness" of the person who assigned the script rule. Here I will show an example on sudo -l and on a script written in python. <br><br>
 ## crontab
 aaa
 
